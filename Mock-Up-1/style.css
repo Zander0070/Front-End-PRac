@@ -1,0 +1,125 @@
+body{
+    background-image: url('background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: keeps it fixed while scrolling */
+    margin: 0; /* remove default margin */
+    height: 100vh; /* ensure full height */
+}
+
+
+
+#list{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px; /* space between items */
+    font-size: 20px;
+    
+}
+
+#list a{
+    color: rgb(161, 113, 101);
+    font-size: 25px;
+}
+
+#list a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+
+#Header{
+    color: rgb(161, 113, 101);
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 300px;
+    text-align: center;
+  
+}
+
+#text-block{
+    border: 2px solid rgb(161, 113, 101);
+    border-radius: 20px;
+    width: 800px;
+    height: 200px;
+
+}
+
+#Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    bottom: 20px; /* Adjust as needed */
+    width: 100%;
+    
+}
+
+#button1{
+    background-color: rgb(161, 113, 101);
+   
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#button1:hover{
+    color: rgb(161, 113, 101);
+    background-color: white;
+}
+
+#Header1{
+    padding-top: 200px;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: underline;
+
+    
+}
+
+#Price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+    gap: 250px; /* space between items */
+    color: white;
+  
+}
+
+.Price-box{
+    border: 3caps wheat solid;
+}
+
+.Price-button{
+    background-color: rgb(161, 113, 101);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Price-button:hover{
+    color: rgb(161, 113, 101);
+    background-color: white;
+}
