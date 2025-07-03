@@ -1,4 +1,4 @@
-body{
+#body{
     background-image: url('background.gif');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,7 +8,12 @@ body{
     height: 100vh; /* ensure full height */
 }
 
-
+#blog-body{
+    background-color: rgb(233, 201, 193);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
 
 #list{
    display: flex;
@@ -122,4 +127,55 @@ body{
 .Price-button:hover{
     color: rgb(161, 113, 101);
     background-color: white;
+}
+
+#Header2{
+    color: rgb(247, 164, 87);
+    text-decoration: underline;
+    font-size: 50px;
+    padding-left: 500px;
+}
+
+#Blog-Main-Container1{
+    display: flex;
+    padding-left: 500px;
+    gap : 80px;
+    padding-bottom: 50px;
+}
+
+#Blog-Container2{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-wrap: wrap;
+    width: 300px;
+    height: 400px;
+
+    
+}
+
+#Blog-Main-Container2{
+    display: flex;
+    padding-left: 500px;
+    gap : 80px
+    
+}
+
+#Blog-Main-Container3{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 500px;
+    gap : 80px
+}
+
+#Blog-sub-container{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    
+    width: 300px;
+    height: 500px;
+
+}
+
+#Blog-Sub-Titles{
+    color: rgb(247, 164, 87);
 }
